@@ -1,0 +1,14 @@
+deviceName: emulator-5554
+platformName: android
+appiumUrl: http://127.0.0.1:4723/wd/hub
+
+appPackage:
+    flipkart: com.flipkart.android
+    calculator: com.android.calculator2
+
+appActivity:
+    flipkart:
+        homepage: com.flipkart.android.activity.HomeFragmentHolderActivity
+        
+    calculator:
+        mainpage: com.android.calculator2.Calculator
