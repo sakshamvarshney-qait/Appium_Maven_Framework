@@ -1,8 +1,7 @@
 # Appium Maven Framework
-@Description: Appium complete Maven framework with auto generated report.
-
-
 @author Saksham Varshney
+
+Description: Appium complete Maven framework with auto generated report.
 
 # Prerequisite:
 
