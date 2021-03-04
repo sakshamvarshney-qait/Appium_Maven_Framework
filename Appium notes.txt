@@ -1,0 +1,123 @@
+------------------------
+@author Saksham Varshney
+------------------------
+-------
+Appium:
+-------
+1. Appium is an open-source automation mobile testing tool.
+2. It is developed and supported by Sauce Labs to automate native and hybrid mobile apps.
+3. It is a cross-platform mobile automation tool, which means that it allows the same test to be run on multiple platforms.
+4. Multiple devices can be easily tested by Appium in parallel.
+5. Appium is very much similar to the Selenium Webdriver testing tool.
+6. Appium has NO dependency on mobile device OS because it has a framework that converts the Selenium Webdriver commands to UIAutomator and UIAutomation commands for Android and iOS respectively, that depends on the device type rather than the OS type.
+
+-------------------
+Features of Appium:
+-------------------
+1. Appium does not require application source code or library.
+2. Appium provides a strong and active community.
+3. Appium has multi-platform support i.e., it can run the same test cases on multiple platforms.
+4. Appium allows the parallel execution of test scripts.
+5. In Appium, a small change does not require re-installation of the application.
+6. Appium supports various languages like C#, Python, Java, Ruby, PHP, JavaScript with node.js, and many others that have Selenium client library.
+
+---------------------
+Advantages of Appium:
+---------------------
+1. Appium is an open-source tool, which means it is freely available. It is easy to install.
+2. It allows the automated testing of hybrid, native, and web applications.
+3. Unlike other testing tools, you do not need to include any additional agents in your app to make Appium compatible with automation. It tests the same app, which is going to upload in App Store.
+4. An additional feature added to Appium. Now it would support desktop application testing for windows as well along with mobile application testing.
+5. Appium is a cross-platform, freely available mobile testing tool, which allows us the cross-platform mobile testing. This means you can test on multiple platforms (single API for both Android and IOS platforms).
+
+------------------------
+Disadvantages of Appium:
+------------------------
+Along with some features and advantages, Appium has some drawbacks too, which are as follows-
+
+1. Lack of detailed reports.
+2. Since the tests depend on the remote web driver, so it is a bit slow.
+3. It is not a limitation, but an overhead that Appium uses UIAutomator for Android that only supports Android SDK, API 16, or higher. However, Appium supports older APIs, but not directly. It uses another open-source library Selendroid to support older APIs.
+4. In iOS, only one instance (iOS Script) can run on one Mac OS device, which means one test can be executed at a time per Mac. If you want to run your tests on multiple iOS devices at the same time, you need to arrange the same number of Mac machines. But it would be expensive to arrange various Mac machines.
+
+Solution: This problem can be resolved if you will run your script in the mobile cloud of Sauce Lab. Currently, it allows scripts to run on multiple iOS simulators at the same time.
+
+--------------------
+Appium Architecture:
+--------------------
+1. Appium is an HTTP server that is written in node.js.
+2. It starts a "test case" on the device that gives rise to a server and listens for proxied commands from the main Appium server.
+3. Tester writes the Test scripts to execute on device or Emulator.
+4. Several webdriver sessions for different platforms like Android and IOS are created and handled by the Appium.
+5. Test Scripts written by the tester executes on the Emulator or device by sending them as requests to the Appium server.
+6. Each vendor, such as IOS or Android, has a different method and mechanism to execute test cases on the device. So, the test case executes after listening commands from the Appium server.
+7. Appium uses JSON wire protocols to send command requests to Appium server.
+
+----------------
+How Appium work:
+----------------
+1. When we install the Appium, a server is also installed with it on our machine that exposes the REST API.
+2. It receives command and connection requests from the client and executes that command on devices like iOS or Android.
+3. It replies with the HTTP responses.
+4. To execute requests, it uses a mobile test automation framework to run the user interface of the app.
+   For Example: 1. Apple instruments used for iOS
+                2. Selendroid used for Android API 15 or less
+                3. UIAutomator used for Android API 16 or higher
+
+------------------
+Appium in Android:
+------------------
+1. On Android, Appium proxies the command to a UIAutomator script running on the device.
+2. UIAutomator is a native UI automation framework of Android that allows us to run Junit test cases directly into the device using command line.
+3. Although it uses Java programming language, but Appium allows to run it from any WebDriver supported language.
+4. Android uses bootstrap.jar, which works as a TCP server. It is used to send the test commands to perform the actions on Android device using UIAutomator.
+
+--------------
+Appium in iOS:
+--------------
+1. As Android uses UIAutomator, iOS uses UIAutomation.
+2. Similar to the Android, Appium proxies the command to a UIAutomation test case running on the Mac instruments environment.
+3. Apple provides this application "instrument" that performs various activities like building, profiling, and controlling iOS apps.
+4. On the other hand, it also has an automation component where you can write commands in JavaScript.
+5. It uses UIAutomation API to interact with Application UI.
+6. Appium uses same libraries to automate iOS Apps.
+
+----------------------------
+Prerequisites to use Appium:
+----------------------------
+1. Install Java (JDK)
+2. Install Android Studio
+3. Install additional Android SDK tools
+4. Install Appium jar file
+5. js (Not required - It by default comes with "node.js" and "NPM", whenever the Appium server is installed. Therefore, it is not required to install node.js and NPM separately. It is already included in current version of Appium.)
+6. Install Appium Desktop Client
+7. Install Eclipse IDE for Java
+
+--------------
+Appium Doctor:
+--------------
+1. To check the Appium installation and dependencies.
+2. Appium-doctor is an application tool to verify Appium installation.
+3. It shows all the missing things that you need to do. So, this will be very useful to run appium-doctor whenever you get any issue.
+4. It will install through npm.
+
+---------------------
+Limitation of Appium:
+---------------------
+1. Microsoft Windows does not support running Appium Inspector.
+2. Appium does not allow the testing for Android versions lower than 4.2.
+3. Appium provides limited support for testing Hybrid applications. E.g., Switching action of application is not possible to test i.e., web app to native app and vice versa.
+
+----------------------
+Competitors of Appium:
+----------------------
+1. Robotium
+2. Experitest
+3. Selendroid
+4. Kobiton
+5. Testdroid
+
+-------------------------------------------
+Advantage of Appium over their competitors:
+-------------------------------------------
+Note: Appium supports all type of application(i.e. Web, Native and Hybrid application), while their competitors does not support all types of application.
