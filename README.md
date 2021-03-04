@@ -107,7 +107,9 @@ There are two ways:
 
 2. Through IDE:
 
-ref: refer to source code.
+**Note:** Refer to source code or click on below link:
+
+[Source code](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/tree/master/src, code)
 
 ---
 
@@ -193,8 +195,11 @@ There are two ways:
 ### To know more about Appium:
 **Note:** refer to Appium Notes that is store at root of this project or click on below link:
 
-[Appium Notes]( "Appium Notes")
+[Appium Notes](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/blob/master/Appium%20notes.txt "Notes")
 
 ---
 
 ### Architecture:
+![Appium Architecture](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/blob/master/appium-architecture.png "Architecture")
+
+---
