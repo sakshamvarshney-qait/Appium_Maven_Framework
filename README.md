@@ -109,7 +109,7 @@ There are two ways:
 
 **Note:** Refer to source code or click on below link:
 
-[Source code](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/tree/master/src, "code")
+[Source code](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/tree/master/src "code")
 
 ---
 
