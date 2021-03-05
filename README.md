@@ -90,7 +90,7 @@ There are two ways:
 
 2. Install Appium through their official site(Desktop version):
 	
-	site: http://appium.io/
+	site: **[appium.io](http://appium.io/ "http://appium.io/")**
 
 ---
 
@@ -104,7 +104,7 @@ There are two ways:
 	2. Start the server through Appium Desktop.
 	3. Click on the search icon to start the session.
 	4. Fill the capabilities in json format.
-	ref: http://appium.io/docs/en/writing-running-appium/caps/
+	ref: **http://appium.io/docs/en/writing-running-appium/caps/**
 	5. Click on start session.
 
 2. Through IDE:
@@ -197,7 +197,7 @@ There are two ways:
 ### To know more about Appium:
 **Note:** refer to Appium Notes that is store at root of this project or click on below link:
 
-[Appium Notes](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/blob/master/Appium%20notes.txt "Notes")
+**[Appium Notes](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/blob/master/Appium%20notes.txt "Notes")**
 
 ---
 
