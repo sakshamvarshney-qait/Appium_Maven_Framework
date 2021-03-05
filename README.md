@@ -1,4 +1,6 @@
 # Appium Maven Framework
+---
+
 **@author Saksham Varshney**
 
 ## Description: Appium complete Maven framework with auto generated report.
@@ -102,7 +104,7 @@ There are two ways:
 	2. Start the server through Appium Desktop.
 	3. Click on the search icon to start the session.
 	4. Fill the capabilities in json format.
-	ref: http://appium.io/docs/en/writing-running-appium/caps/
+	ref: [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/ "Capabilities")
 	5. Click on start session.
 
 2. Through IDE:
