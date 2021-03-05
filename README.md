@@ -104,14 +104,14 @@ There are two ways:
 	2. Start the server through Appium Desktop.
 	3. Click on the search icon to start the session.
 	4. Fill the capabilities in json format.
-	ref: **http://appium.io/docs/en/writing-running-appium/caps/**
+	ref: http://appium.io/docs/en/writing-running-appium/caps/
 	5. Click on start session.
 
 2. Through IDE:
 
 **Note:** Refer to source code or click on below link:
 
-[Source code](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/tree/master/src "code")
+**[Source code](https://github.com/sakshamvarshney-qait/Appium_Maven_Framework/tree/master/src "code")**
 
 ---
 
