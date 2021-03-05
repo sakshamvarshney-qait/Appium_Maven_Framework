@@ -104,7 +104,7 @@ There are two ways:
 	2. Start the server through Appium Desktop.
 	3. Click on the search icon to start the session.
 	4. Fill the capabilities in json format.
-	ref: [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/ "Capabilities")
+	ref: http://appium.io/docs/en/writing-running-appium/caps/
 	5. Click on start session.
 
 2. Through IDE:
